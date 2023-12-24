@@ -4,7 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Google Search Engine</title>
-	//Here we have linked our CSS File, to give it a Good UI/UX
+	<script src="https://kit.fontawesome.com/4c81290473.js" crossorign = "anonymous"></script>
+
+	<!--Here we have linked our CSS File, to give it a Good UI/UX-->
 	<link rel="stylesheet" type="text/css" href="google.css">
 </head>
 <body>
@@ -12,19 +14,57 @@
 		<div class = "main">
 			<img src = "google.png">
 			<div class ="searchbx">
-				<input type="text" name="" class ="query" value="">
+
+				<!--Taken the Search Field, where we can type and Search-->
+				<input type="text" name="" class ="query" value="" placeholder="Search Google or type a URL">
 				<div class = "icons">
 					<div><img src = "search.png"></div>
 					<div><img src = "mic.png"></div>
 				</div>
-				<div class ="button">
+				<div class = btns>
+				<div class ="button1">
 					<button class = "searchbtn">Google Search</button>
 				</div>
+
+				<div class ="button1">
+					<a href="https://doodles.google/">
+					<button class = "searchbtn">I'm Feeling Lucky!</button></a>
+
+				</div>
+			</div>
+
+				<div class = "lan" style = "margin: 3em;">
+		Google offered in: <div class= "lan" style = "color:blue;">हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</div>
+	</div>
 			</div>
 		</div>
 
+
+
 	</section>
-//Here we have linked our JAVASCRIPT File for the Proper Functioning of the Website
+
+
+
+	<footer>
+		<div class="Footer-content">
+		<h3>Copyright@2023</h3>
+			<div class="symbol">
+				<div class="first">
+				<a href="https://github.com/Nilesh867" target="_blank">
+					<i class="fab fa-github fa-xl"></i>
+				</a>
+			</div>
+
+				<div class = "second">
+				<a href="linkedin.com/in/nilesh-jindal-a7980320b" target="_blank">
+					<i class="fab fa-linkedin fa-xl"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	</footer>
+
+<!--Here we have linked our JAVASCRIPT File for the Proper Functioning of the Website by the API Integration-->
 	<script src="google.js"></script>
 
 </body>
